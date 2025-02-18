@@ -109,6 +109,14 @@ body, html {
 }
 
 .calculator__return {
+    display: none;
+    align-items: center;
+    justify-content: right;
+    height: 100px;
+    margin: 0px 10px 0px 0px;
+}
+
+.calculator__return-text {
     display: flex;
     align-items: center;
     justify-content: right;
