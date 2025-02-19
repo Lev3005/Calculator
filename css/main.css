@@ -109,14 +109,6 @@ body, html {
 }
 
 .calculator__return {
-    display: none;
-    align-items: center;
-    justify-content: right;
-    height: 100px;
-    margin: 0px 10px 0px 0px;
-}
-
-.calculator__return-text {
     display: flex;
     align-items: center;
     justify-content: right;
@@ -153,4 +145,25 @@ body, html {
 
 .button__ce {
     background-color: #2b2a2a;
+}
+
+/* Медиа-запросы */
+
+@media (max-width: 500px) {
+    
+    .button {
+        width: 70px;
+        height: 70px;
+        border-radius: 12px;
+    }
+
+    .calculator__return {
+        height: 70px;
+    }
+
+    .calculator {
+        font-size: 24px;
+        border-radius: 12px;
+    }
+
 }
